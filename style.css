@@ -1,11 +1,34 @@
-header{
+header {
     background-color: rgb(1, 60, 109);
     color: white;
     text-align: center;
 }
-
-footer{
-    background-color: rgb(1, 60, 109);
+header a {
     color: white;
-    
+    text-decoration: none; 
+}
+header li {
+    padding: 10px;
+}
+header h1 {
+    font-weight: bold;
+}
+
+
+
+footer {
+    background-color: rgb(1, 60, 109);
+    color: white;   
+}
+footer li {
+    padding: 10px;
+}
+footer h3 {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 70px;
+}
+footer h4 {
+    font-size: 110%;
+    font-weight: bold;
 }
