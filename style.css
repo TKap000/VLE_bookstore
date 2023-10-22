@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(1, 60, 109);
+    background-color: rgb(90, 5, 5);
     color: white;
     text-align: center;
 }
@@ -13,11 +13,14 @@ header li {
 header h1 {
     font-weight: bold;
 }
+header section {
+    background-color: rgb(173, 50, 50);
+}
 
 
 
 footer {
-    background-color: rgb(1, 60, 109);
+    background-color: rgb(90, 5, 5);
     color: white;   
 }
 footer li {
@@ -26,9 +29,13 @@ footer li {
 footer h3 {
     font-weight: bold;
     text-align: right;
-    padding-top: 70px;
+    padding-top: 50px;
 }
 footer h4 {
-    font-size: 110%;
+    font-size: 150%;
     font-weight: bold;
+}
+footer p {
+    font-size: 120%;
+   
 }
