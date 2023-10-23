@@ -133,6 +133,32 @@ Karuselli aluseks on kasutatud https://www.w3schools.com/howto/howto_js_slidesho
     font-size: 120%;
     text-align: center;
 }
+.New_books img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.next_1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -65px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next_1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.next_1:hover {
+    background-color: rgba(145, 140, 140, 0.8);
+}
 
 
 .Top10 {
@@ -152,6 +178,7 @@ Karuselli aluseks on kasutatud https://www.w3schools.com/howto/howto_js_slidesho
     font-size: 120%;
     text-align: center;
 }
+<<<<<<< HEAD
 
 .book-container {
     margin-bottom: 20px;
@@ -232,3 +259,10 @@ Karuselli aluseks on kasutatud https://www.w3schools.com/howto/howto_js_slidesho
     font-size: 24px;
     margin: 0 15px;
 }
+=======
+.Top10 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+>>>>>>> e9c6711fb23deff72cc9f9a9f2b4c87bf716d84b
