@@ -178,7 +178,26 @@ Karuselli aluseks on kasutatud https://www.w3schools.com/howto/howto_js_slidesho
     font-size: 120%;
     text-align: center;
 }
-<<<<<<< HEAD
+.Top10 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nr {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(90, 5, 5);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: -10px;
+    right: 25px;
+}
+
+
+
 
 .book-container {
     margin-bottom: 20px;
@@ -259,10 +278,3 @@ Karuselli aluseks on kasutatud https://www.w3schools.com/howto/howto_js_slidesho
     font-size: 24px;
     margin: 0 15px;
 }
-=======
-.Top10 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
->>>>>>> e9c6711fb23deff72cc9f9a9f2b4c87bf716d84b
