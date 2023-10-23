@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find a perfect match</title>
 
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
-       
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -33,7 +36,8 @@
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">New in store</a></li>
                     <li class="nav-item"><a class="nav-link" href="product_page.html">All books</a></li>
-                    <li class="nav-item"><a class="nav-link" href="find_a_perfect_match.html">Find a perfect match</a></li>
+                    <li class="nav-item"><a class="nav-link" href="find_a_perfect_match.html">Find a perfect match</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link" href="#">Book club</a></li>
                 </ul>
             </div>
@@ -45,16 +49,168 @@
                 </ul>
             </div>
 
-            
+
 
         </nav>
     </header>
 
-    <!--suvaline tekst-->
-    <br>
-    <p>ajutine tekst</p>
-    <br>
-    <!--suvaline tekst-->
+    <div class="container">
+        <div class="my-4">
+            <h6>Home > Find a perfect match</h6>
+        </div>
+        <div class="my-4">
+            <h5>Rate previously ordered books</h5>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="book-container">
+                    <div class="book-cover">
+                        <div class="circle">
+                            <div id="value1">0</div>
+                        </div>
+                    </div>
+                    <div class="book-details">
+                        <div class="text-center mt-2"><b>Title of the book</b></div>
+                        <div class="text-center">Author name</div>
+                        <div class="counter">
+                            <button class="counter-btn" id="minus1">-</button>
+                            <div class="counter-value" id="counter1">0</div>
+                            <button class="counter-btn" id="plus1">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="book-container">
+                    <div class="book-cover">
+                        <div class="circle">
+                            <div id="value2">0</div>
+                        </div>
+                    </div>
+                    <div class="book-details">
+                        <div class="text-center mt-2"><b>Title of the book</b></div>
+                        <div class="text-center">Author name</div>
+                        <div class="counter">
+                            <button class="counter-btn" id="minus2">-</button>
+                            <div class="counter-value" id="counter2">0</div>
+                            <button class="counter-btn" id="plus2">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="book-container">
+                    <div class="book-cover">
+                        <div class="circle">
+                            <div id="value3">0</div>
+                        </div>
+                    </div>
+                    <div class="book-details">
+                        <div class="text-center mt-2"><b>Title of the book</b></div>
+                        <div class="text-center">Author name</div>
+                        <div class="counter">
+                            <button class="counter-btn" id="minus3">-</button>
+                            <div class="counter-value" id="counter3">0</div>
+                            <button class="counter-btn" id="plus3">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <h5>Questions about preferences</h5>
+        </div>
+        <div>
+            <p>Which of these authors do you prefer?</p>
+        </div>
+        <div class="mt-4">
+            <p>Select your favorite genre</p>
+        </div>
+
+        <div class="dropdown custom-dropdown">
+            <button class="btn btn-secondary dropdown-toggle rounded-pill btn-light" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                Select genre
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" href="#">Fiction</button>
+                <button class="dropdown-item" href="#">Mystery</button>
+                <abutton class="dropdown-item" href="#">Romance</button>
+            </div>
+        </div>
+          
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="circle-container">
+                        <div class="circle-account">
+                            <i class="fas fa-user"></i>
+                            <input type="checkbox" class="checkbox" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="circle-container">
+                        <div class="circle-account">
+                            <i class="fas fa-user"></i>
+                            <input type="checkbox" class="checkbox" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="circle-container">
+                        <div class="circle-account">
+                            <i class="fas fa-user"></i>
+                            <input type="checkbox" class="checkbox" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="circle-container">
+                        <div class="circle-account">
+                            <i class="fas fa-user"></i>
+                            <input type="checkbox" class="checkbox" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="circle-container">
+                        <div class="circle-account">
+                            <i class="fas fa-user"></i>
+                            <input type="checkbox" class="checkbox" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="my-4">
+            <h5>Recommendations based on your answers</h5>
+        </div>
+        <div class="row pb-5">
+            <div class="col-sm-3">
+                <div class="book-container">
+                    <div class="book-cover">
+                    </div>
+                    <div class="book-details">
+                        <div class="text-center mt-2"><b>Title of the book</b></div>
+                        <div class="text-center">Author name</div>
+                        <div class="text-center"><b>49.99€</b></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="book-container">
+                    <div class="book-cover">
+                    </div>
+                    <div class="book-details">
+                        <div class="text-center mt-2"><b>Title of the book</b></div>
+                        <div class="text-center">Author name</div>
+                        <div class="text-center"><b>49.99€</b></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <footer>
@@ -62,9 +218,9 @@
         <div class="container-fluid">
             <div class="row justify-content-between">
                 <div class="col-2">
-                    <h3><img src="img/watson.png" alt="Watson"></h3>   
+                    <h3><img src="img/watson.png" alt="Watson"></h3>
                 </div>
-                <div class="col-2"> 
+                <div class="col-2">
                     <h4>Where you could find us?</h4>
                     <p>Phone number</p>
                     <p>Some address</p>
@@ -74,17 +230,31 @@
                 <div class="col-2">
                     <h4>Follow us on social media</h4>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="https://www.instagram.com/"><img src="img/instagram.png" alt="Instagram"></a></li>
-                        <li class="list-inline-item"><a href="https://et-ee.facebook.com/"><img src="img/facebook.png" alt="Facebook"></a></li>
-                        <li class="list-inline-item"><a href="https://www.pinterest.com/"><img src="img/Pinterest.png" alt="Pinterest"></a></li>
-                        <li class="list-inline-item"><a href="https://www.google.com/"><img src="img/google.png" alt="Google"></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/"><img src="img/instagram.png"
+                                    alt="Instagram"></a></li>
+                        <li class="list-inline-item"><a href="https://et-ee.facebook.com/"><img src="img/facebook.png"
+                                    alt="Facebook"></a></li>
+                        <li class="list-inline-item"><a href="https://www.pinterest.com/"><img src="img/Pinterest.png"
+                                    alt="Pinterest"></a></li>
+                        <li class="list-inline-item"><a href="https://www.google.com/"><img src="img/google.png"
+                                    alt="Google"></a></li>
                     </ul>
                     <p>Subscribe for our newsletter <b>here</b>.</p>
                 </div>
             </div>
         </div>
         <br><br>
-    </footer> 
-    
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script type='text/javascript' src="script-perfect-match.js"></script>
 </body>
+
 </html>
