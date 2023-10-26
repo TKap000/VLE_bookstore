@@ -278,3 +278,176 @@ Karuselli aluseks on kasutatud https://www.w3schools.com/howto/howto_js_slidesho
     font-size: 24px;
     margin: 0 15px;
 }
+
+/*
+Product page styling
+*/
+
+.underNavBar{
+    text-align: left;
+    padding-left: 75px;
+}
+
+.underNavBarText{
+    padding: 2ch;
+}
+
+.rowProductPage{
+    padding-right: 50px;
+}
+
+.rowProductPage:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.leftProduct{
+    float: left;
+    padding-left: 90px;
+    width: 40%;
+}
+.rightProduct {
+    float: left;
+    width: 25%;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+}
+  
+.middleProduct {
+    float: left;
+    width: 35%;
+    padding-right: 50px;
+}
+
+.pictureProduct{
+    height: 65ch;
+    width: 50ch;
+}
+
+.meltingHearths{
+    height: 3ch;
+}
+
+.reviewRow{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.reviewCol1{
+    float: left;
+    padding-right: 5ch;
+}
+
+.reviewCol2{
+    float: left;
+    
+}
+
+.productInfo{
+    padding-top: 20px;
+}
+
+#youMightAlsoBeInterested{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.cartRow{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+#priceImage{
+    height: 4ch;
+}
+
+#normalPrice > p{
+    padding-left: 8ch;
+    font-size: 22px;
+}
+
+.checkoutCart{
+    margin-left: 25px;
+}
+
+.cartOuterDiv{
+    padding-left: 50px;
+}
+
+.cart-container {
+    display: flex;
+    width: 180px; 
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cart-button {
+    width: 60px;
+    height: 40px;
+    background-color: #D8D8D8;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+}
+
+.cart-quantity {
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.cartRow2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.addToCartButton {
+    border-radius: 38px;
+    background-color: rgba(88, 1, 2, 1);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.addToCartButton img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.wishlistButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+}
+
+.wishlistButton img{
+    height: 50px;
+    padding-left: 20px;
+}
+
+#shareOnSocial{
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.logoButtonImage {
+    display: inline-block;
+    padding-left: 30px;
+}
