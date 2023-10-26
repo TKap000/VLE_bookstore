@@ -13,6 +13,7 @@
 
 <body>
     <header>
+        <script src="script-productPage.js"></script>
         <section>
             <br>
             <h3><b>SPOOKY NIGHT SALE! </b>Only selected books <b>50%</b> of with code <b>FULLMOON</b></h3>
@@ -68,10 +69,14 @@
                 </div>
                 <div class="reviewRow">
                     <div class="reviewCol1">
-                        <h6>Read reviews (12)</h6>
+                        <a href="index.html" class="clickableReview">
+                            <h6>Read reviews (12)</h6>
+                        </a>
                     </div>
                     <div class="reviewCol2">
-                        <h6>Write a review</h6>
+                        <a href="index.html" class="clickableReview">
+                            <h6>Write a review</h6>
+                        </a>
                     </div>
                 </div>
                 <div class="productInfo">
@@ -96,9 +101,9 @@
                     </div>
                     <div class="cartOuterDiv">
                         <div class="cart-container">
-                            <button class="cart-button">-</button>
-                            <div class="cart-quantity">1</div>
-                            <button class="cart-button">+</button>
+                            <button class="cart-button" id="decrement">-</button>
+                            <div class="cart-quantity" id="quantity">1</div>
+                            <button class="cart-button" id="increment">+</button>
                         </div>
                     </div>
                     <div class="cartRow2">

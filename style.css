@@ -329,6 +329,10 @@ Product page styling
     height: 3ch;
 }
 
+.clickableReview{
+    color:black;
+}
+
 .reviewRow{
     display: flex;
     flex-direction: row;
