@@ -34,8 +34,10 @@ footer h4 {
     font-weight: bold;
 }
 footer p {
-    font-size: 120%;
-   
+    font-size: 120%; 
+}
+footer a {
+    color: white;
 }
 
 
